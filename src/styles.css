@@ -1,0 +1,33 @@
+.friend {
+  display: grid;
+  grid-auto-flow: column;
+  border: 0;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: flex-start;
+  grid-template-columns: auto 1fr auto auto;
+  min-width: 350px;
+}
+
+.friend span {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+  /* justify-self: flex-start; */
+}
+
+.best-friend {
+  display: grid;
+  grid-auto-flow: column;
+  border: 0;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: flex-end;
+  grid-template-columns: auto 1fr auto auto;
+  min-width: 350px;
+}
+
+.best-friend span {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+  color: #f7bd33;
+}
